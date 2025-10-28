@@ -1,0 +1,15 @@
+[workspace]
+
+members = [
+    "crates/quantize",
+    "crates/format",
+    "crates/pack",
+    "crates/crypto",
+    "tool",
+]
+
+resolver = "2"
+
+[workspace.package]
+edition = "2021"
+licence = "UNLICENSED"

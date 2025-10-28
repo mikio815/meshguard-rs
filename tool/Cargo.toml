@@ -1,0 +1,9 @@
+[package]
+name = "meshguard-tool"
+version = "0.1.0"
+edition.workspace = true
+licence.workspace = true
+
+[dependencies]
+meshguard-quantize = { path = "../crates/quantize" }
+anyhow = "1"
