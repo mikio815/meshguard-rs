@@ -5,3 +5,4 @@ edition.workspace = true
 licence.workspace = true
 
 [dependencies]
+meshguard-quantize = { path = "../quantize" }

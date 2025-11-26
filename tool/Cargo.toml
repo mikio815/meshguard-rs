@@ -6,4 +6,5 @@ licence.workspace = true
 
 [dependencies]
 meshguard-quantize = { path = "../crates/quantize" }
+meshguard-pack = { path = "../crates/pack" }
 anyhow = "1"

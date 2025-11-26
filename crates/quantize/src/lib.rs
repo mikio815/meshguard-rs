@@ -126,6 +126,7 @@ pub fn quantize_uvs(uvs: &[[f32; 2]]) -> QuantizedUVs {
     QuantizedUVs { data: out }
 }
 
+/// テスト復号用
 pub fn dequantize_positions(q: &QuantizedPositions) -> Vec<[f32; 3]> {
     let scale64 = [q.scale[0] as f64, q.scale[1] as f64, q.scale[2] as f64];
     let off64   = [q.offset[0] as f64, q.offset[1] as f64, q.offset[2] as f64];
